@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ignite>
+    <vehicle>
+        <id>2</id>
+        <brand>ROLCE ROYS</brand>
+        <vehicleno>1234KA</vehicleno>
+        <des>CLASSY CAR </des>
+        <categoryid>1</categoryid>
+        <servicetype>MODIFY</servicetype>
+        <status>1</status>
+    </vehicle>
+    <vehicle>
+        <id>1</id>
+        <brand>honda</brand>
+        <vehicleno>1234KL</vehicleno>
+        <des>VINTAGE </des>
+        <categoryid>2</categoryid>
+        <servicetype>MODIFY</servicetype>
+        <status>1</status>
+    </vehicle>
+    <customer>
+        <id>1</id>
+        <name>PAVAN</name>
+        <address>BALAJI NAGAR ,BANGALORE-29</address>
+        <phone>9900808421</phone>
+        <email>pavan@gmail.com</email>
+        <usetype>CUSTOMER</usetype>
+    </customer>
+    <customer>
+        <id>2</id>
+        <name>PRAJWAL</name>
+        <address>MALLESHWARAM ,BANGALORE</address>
+        <phone>9900808424</phone>
+        <email>prajwal@gmail.com</email>
+        <usetype>CUSTOMER</usetype>
+    </customer>
+    <mechanic>
+
+        <id>1</id>
+        <name>PRITHVI</name>
+        <address>VELLORE ,TAMILNADU</address>
+        <phone>8884712624</phone>
+        <type>Engine</type>
+        <usetype>MECHANIC</usetype>
+    </mechanic>
+    <mechanic>
+        
+        <id>3</id>
+        <name>RAVI</name>
+        <address>COIMBATORE ,TAMILNADU</address>
+        <phone>8884719624</phone>
+        <type>Engine</type>
+        <usetype>MECHANIC</usetype>
+    </mechanic>
+    <mechanic>
+        <id>2</id>
+        <name>RAM</name>
+        <address>CHENNAI ,TAMILNADU</address>
+        <phone>990080993</phone>
+        <type>Parts</type>
+        <usetype>MECHANIC</usetype>
+    </mechanic>
+    <mechanic>
+        <id>4</id>
+        <name>RAJU</name>
+        <address>HYDERBAD ,TELANGANA</address>
+        <phone>9646563434</phone>
+        <type>ALL</type>
+        <usetype>MECHANIC</usetype>
+    </mechanic>
+    <admin>
+        <id>1</id>
+        <name>ADMIN</name>
+        <address></address>
+        <phone></phone>
+        <email>admin@gmail.com</email>
+        <usetype>ADMIN</usetype>
+    </admin>
+    <messagebox>
+        <userstype>CUSTOMER</userstype>
+        <userid>1</userid>
+        <to>
+            PRITHVI
+            <id>1</id>
+            <usetype>MECHANIC</usetype>
+        </to>
+        <time>12/12/200</time>
+    </messagebox>
+    <category>
+        <id>1</id>
+        <type>CAR</type>
+        <noofveh>55</noofveh>
+    </category>
+    <category>
+        <id>1</id>
+        <type>BIKE</type>
+        <noofveh>34</noofveh>
+    </category>
+</ignite>
